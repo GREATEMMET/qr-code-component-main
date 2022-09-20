@@ -36,11 +36,11 @@ body {
 }
 
 .container {
-    width: 1400px;
+    width: 1440px;
     max-width: 100%;
     background-color: var(--light-gray);
     margin: auto;
-    padding-block: 30px;
+    padding-block: 30px; 
 }
 
 .content-box {
