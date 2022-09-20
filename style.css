@@ -1,5 +1,7 @@
 /* CSS RESET */
-* {
+*,
+*::after,
+*::before {
     margin: 0;
     padding: 0;
     font-size: initial;
@@ -11,8 +13,6 @@ html {
     font-size: 62.5%;
     /* 10px */
     font-family: 'Outfit', sans-serif;
-
-
 }
 
 
@@ -31,12 +31,12 @@ html {
 
 
 body {
-    background-color: var(--light-gray);
+    /* background-color: var(--light-gray); */
     height: 100vh;
 }
 
 .container {
-    width: 1400px;
+    width: 1000px;
     max-width: 100%;
     background-color: var(--light-gray);
     margin: auto;
@@ -81,5 +81,5 @@ body {
 
 .attribution {
     margin-bottom: 0;
-    padding-bottom:0;
+    padding-bottom: 0;
 }
